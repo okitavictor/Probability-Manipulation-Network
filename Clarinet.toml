@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.multiverse-outcome]
+path = 'contracts/multiverse-outcome.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.probability-manipulation]
 path = 'contracts/probability-manipulation.clar'
 clarity_version = 2
